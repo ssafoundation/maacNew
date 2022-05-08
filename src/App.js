@@ -1,23 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import { Router, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Switch } from "react-router-dom";
+import "./app.scss";
+import Layout from "./layout/AuthLayout/Index";
+import AuthMiddleware from "./Routes/Middleware/AuthMiddleware";
+import OpenRouteMiddleware from "./Routes/Middleware/OpenRouteMiddleware";
+import { openRoute, privateRoute } from "./Routes/Routes";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Switch>
+          {openRoute.map((route, idx) => (
+            <OpenRouteMiddleware
+              exact
+              path={route.path}
+              layout={Layout}
+              component={route.component}
+              key={idx}
+            />
+          ))}
+          {privateRoute.map((route, idx) => (
+            <AuthMiddleware
+              exact
+              path={route.path}
+              layout={Layout}
+              component={route.component}
+              key={idx}
+              isAuthProtected={true}
+            />
+          ))}
+        </Switch>
+      </Router>
+      {/* <AdminMain /> */}
     </div>
   );
 }

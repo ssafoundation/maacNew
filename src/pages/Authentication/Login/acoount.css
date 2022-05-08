@@ -1,0 +1,100 @@
+.student-login-main-wrap {
+  min-height: 86vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 20px 0; */
+}
+.student-login-main-wrap.signup-page {
+  /* height: 95vh; */
+}
+.student-account-form-wrap {
+  width: 650px;
+  /* min-height: 650px; */
+  background: #fff;
+  border-radius: 10px;
+  padding: 2%;
+}
+.account-form-title {
+  text-align: center;
+}
+
+.account-form-title h3 {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 42px;
+  margin-bottom: 40px;
+}
+.account-btn-all-page.btn.btn-primary {
+  display: block;
+  width: 100%;
+}
+.account-with-social-media-link {
+  text-align: center;
+  padding-top: 40px;
+}
+.account-with-social-media-link h5 {
+  margin-bottom: 20px;
+}
+.account-with-social-media-single-link {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.account-with-social-media-single-link > a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1877f2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a.account-with-social-media-google-plus {
+  background: #ea4434;
+}
+.account-with-social-media-single-link > * > img {
+  width: 30px;
+  height: 30px;
+}
+
+.forgot-password {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.forgot-password > a {
+  color: #74788d;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.new-account > p {
+  color: #495057;
+}
+.new-account > p > a {
+  font-weight: 600;
+  text-decoration: none;
+  color: #556ee6;
+}
+.student-account-form-wrap.reset-password-student {
+  min-height: 400px;
+  margin-top: 70px;
+}
+.student-login-main-wrap.pass-reset {
+  align-items: baseline;
+}
+.password-show-hide-wrap-class {
+  position: relative;
+}
+.password-show-hide-wrap-class span {
+  position: absolute;
+  top: 40px;
+  right: 15px;
+  z-index: 9999;
+}

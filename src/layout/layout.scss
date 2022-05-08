@@ -1,0 +1,28 @@
+.main-layout-wrap {
+  display: flex;
+  .layout-navbar-left-main {
+    position: relative;
+    & > div {
+      transition-duration: 500ms;
+    }
+    nav.EZDrawer__container.navbar-main-wrap-data-wrap {
+      width: 250px !important;
+      position: relative !important;
+      transition-duration: 500ms;
+      .dropdown-menu {
+        position: relative !important;
+      }
+    }
+
+    button {
+      position: absolute;
+      right: -60px;
+      z-index: 9;
+    }
+  }
+  .layout-body-right-main {
+    width: 100%;
+    position: relative;
+    margin-top: 100px;
+  }
+}

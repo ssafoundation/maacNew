@@ -1,0 +1,76 @@
+.admin-header-main-wrap {
+  height: 70px;
+  left: 0px;
+  top: 0px;
+  background: #ffffff;
+  box-shadow: 0px 6px 12px rgb(95 166 217 / 16%);
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  .header-inner-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .header-middle-navbar {
+      .header-admin-nav-items {
+        ul {
+          display: flex;
+          padding-left: 0;
+          gap: 15px;
+          margin-bottom: 0;
+          li {
+            list-style: none;
+            a {
+              display: flex;
+              gap: 5px;
+              text-decoration: none;
+              color: #2f3c4f;
+              &:hover {
+                color: green;
+                span {
+                  svg {
+                    path {
+                      fill: green;
+                    }
+                  }
+                }
+              }
+              span {
+                svg {
+                  path {
+                    fill: #2f3c4f;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    .dropdown-profileview-wrap.dropdown > button {
+      width: 40px;
+      height: 40px;
+      background: #fff;
+      border-radius: 50%;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: none;
+      font-family: "Font Awesome 5 Pro";
+      font-weight: 900;
+      i.fa.fa-angle-down {
+        position: absolute;
+        right: -12px;
+        color: #000;
+      }
+    }
+  }
+}
+.navbar-bottom-separetor {
+  width: 100%;
+  height: 10px;
+  margin-top: 100px;
+}
