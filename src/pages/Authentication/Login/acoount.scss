@@ -98,3 +98,9 @@ a.account-with-social-media-google-plus {
   right: 15px;
   z-index: 9999;
 }
+.mb-3.d-flex.checkbox-wrap-data {
+  align-items: center;
+  label.form-label {
+    margin-bottom: 0;
+  }
+}

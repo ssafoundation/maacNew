@@ -7295,6 +7295,13 @@ react-bootstrap@^2.1.2:
     uncontrollable "^7.2.1"
     warning "^4.0.3"
 
+react-data-table-component@^7.5.1:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/react-data-table-component/-/react-data-table-component-7.5.1.tgz#f2c136fc97f01246f475ca1d36236e56eee34d39"
+  integrity sha512-VMMRjGohqdtrKT+eZU8I39IWvd7ZfqYKkACd4HZeuWzKsJCNYxJuPThdO5OBW6Wiw9Xwn8wqzD5FJhsJWttNDw==
+  dependencies:
+    deepmerge "^4.2.2"
+
 react-dev-utils@^12.0.0:
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/react-dev-utils/-/react-dev-utils-12.0.0.tgz#4eab12cdb95692a077616770b5988f0adf806526"

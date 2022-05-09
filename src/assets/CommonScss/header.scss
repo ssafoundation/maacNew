@@ -4,10 +4,11 @@
   top: 0px;
   background: #ffffff;
   box-shadow: 0px 6px 12px rgb(95 166 217 / 16%);
-  position: fixed;
+  position: sticky;
   width: 100%;
   display: flex;
   align-items: center;
+  z-index: 999;
   .header-inner-wrap {
     display: flex;
     justify-content: space-between;

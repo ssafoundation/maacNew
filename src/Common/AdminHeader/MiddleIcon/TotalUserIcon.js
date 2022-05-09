@@ -1,6 +1,6 @@
 import React from "react";
 
-const TotalUser = () => {
+const TotalUserIcon = () => {
   return (
     <svg
       width="24"
@@ -43,4 +43,4 @@ const TotalUser = () => {
   );
 };
 
-export default TotalUser;
+export default TotalUserIcon;

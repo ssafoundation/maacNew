@@ -5,7 +5,7 @@ import { withRouter } from "react-router-dom";
 import { Button, Row } from "reactstrap";
 // import Lock from "../../../assets/images/Icon/lock.svg";
 import { loginUser, loginUserError } from "../../../store/auth/login/actions";
-import "./acoount.css";
+import "./acoount.scss";
 
 const Login = ({ history, location }) => {
   console.log(`file: Login.js ~ line 13 ~ Login ~ history`, location);
@@ -58,6 +58,7 @@ const Login = ({ history, location }) => {
                 <Row>
                   <Col md={12}>
                     <div className="mb-3">
+                      <Form.Label>User Name</Form.Label>
                       <Form.Control
                         name="email"
                         label="Email"
@@ -74,6 +75,7 @@ const Login = ({ history, location }) => {
                 <Row>
                   <Col md={12}>
                     <div className="mb-3">
+                      <Form.Label>User Name</Form.Label>
                       <Form.Control
                         name="password"
                         type="password"
@@ -89,7 +91,30 @@ const Login = ({ history, location }) => {
                       />
                     </div>
                   </Col>
-                </Row>
+                </Row>{" "}
+                {/* <Row>
+                  <Col md={12}>
+                    <div className="mb-3 d-flex checkbox-wrap-data">
+                      <input
+                        style={{
+                          marginRight: "5px",
+                          width: "18px",
+                          height: "18px",
+                        }}
+                        name="checkbox"
+                        type="checkbox"
+                        required
+                        onChange={(e) =>
+                          setFormData({
+                            ...formData,
+                            password: e.target.value,
+                          })
+                        }
+                      />
+                      <Form.Label>Remember me</Form.Label>
+                    </div>
+                  </Col>
+                </Row> */}
                 <Row>
                   <React.Fragment>
                     <div className="flex-wrap gap-2 col-md-12">

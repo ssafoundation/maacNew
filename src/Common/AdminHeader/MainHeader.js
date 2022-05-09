@@ -1,46 +1,49 @@
 import React from "react";
 import { Container, Dropdown } from "react-bootstrap";
-import "../../../assets/CommonScss/header.scss";
-import MAAC_LOGO from "../../../assets/images/headerLogo/MAAC.svg";
-import profilePic from "../../../assets/images/headerLogo/profile.png";
+import { Link } from "react-router-dom";
+import "../../assets/CommonScss/header.scss";
+import MAAC_LOGO from "../../assets/images/headerLogo/MAAC.svg";
+import profilePic from "../../assets/images/headerLogo/profile.png";
 import AllPostsIcon from "./MiddleIcon/AllPostsIcon";
 import FileText from "./MiddleIcon/FileText";
-import TotalUser from "./MiddleIcon/TotalUser";
-const AdminHeader = () => {
+import TotalUserIcon from "./MiddleIcon/TotalUserIcon";
+const MainHeader = () => {
   return (
     <>
       <div className="admin-header-main-wrap">
         <Container>
           <div className="header-inner-wrap">
             <div className="header-logo-left">
-              <img src={MAAC_LOGO} alt="" />
+              <Link to="/">
+                <img src={MAAC_LOGO} alt="" />
+              </Link>
             </div>
             <div className="header-middle-navbar">
               <div className="header-admin-nav-items">
                 <ul>
                   <li>
-                    <a href="!#">
+                    <Link to="/all-posts">
                       <span>
                         <FileText />
                       </span>{" "}
                       All Posts
-                    </a>
+                    </Link>
                   </li>{" "}
                   <li>
-                    <a href="!#">
+                    <Link to="/total-users">
                       <span>
-                        <TotalUser />
+                        <TotalUserIcon />
                       </span>{" "}
                       Total User
-                    </a>
+                    </Link>
                   </li>{" "}
                   <li>
-                    <a href="!#">
+                    <Link to="/total-category">
                       <span>
                         <AllPostsIcon />
                       </span>{" "}
-                      All Posts
-                    </a>
+                      Category
+                    </Link>
                   </li>
                 </ul>
               </div>
@@ -71,4 +74,4 @@ const AdminHeader = () => {
   );
 };
 
-export default AdminHeader;
+export default MainHeader;
