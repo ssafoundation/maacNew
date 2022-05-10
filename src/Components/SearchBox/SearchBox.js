@@ -8,7 +8,7 @@ const SearchBox = () => {
         <div className="searchbox-inner-wrap">
           <input type="search" name="" id="" />
           <button>
-            <i class="fas fa-search"></i>
+            <i className="fas fa-search"></i>
           </button>
         </div>
       </Container>

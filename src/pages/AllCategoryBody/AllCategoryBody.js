@@ -25,7 +25,7 @@ const AllCategoryBody = () => {
                     to="/create-new-category"
                   >
                     <span>
-                      <i class="bx bx-plus"></i>
+                      <i className="bx bx-plus"></i>
                     </span>
                     Add
                   </Link>
@@ -81,7 +81,7 @@ const AllCategoryBody = () => {
                           <p>
                             Total Post (3){" "}
                             <span>
-                              <i class="bx bx-chevrons-right"></i>
+                              <i className="bx bx-chevrons-right"></i>
                             </span>
                           </p>
                         </span>

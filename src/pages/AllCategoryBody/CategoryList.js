@@ -11,7 +11,7 @@ const CategoryList = () => {
               <div className="search-post-title-left">
                 <h3>
                   <span>
-                    <i class="bx bx-arrow-back"></i>
+                    <i className="bx bx-arrow-back"></i>
                   </span>
                   ED Tech
                 </h3>
@@ -48,17 +48,17 @@ const CategoryList = () => {
                           <div className="post-all-action-btn-wrap">
                             <button className="preview-btn">
                               <span>
-                                <i class="bx bx-show"></i>
+                                <i className="bx bx-show"></i>
                               </span>{" "}
                               Preview
                             </button>
                             <button className="edit-btn ">
-                              <i class="bx bx-edit-alt"></i> Edit
+                              <i className="bx bx-edit-alt"></i> Edit
                             </button>
                             <button className="close-btn">
                               <i
                                 style={{ color: "red" }}
-                                class="bx bx-x-circle"
+                                className="bx bx-x-circle"
                               ></i>
                             </button>
                           </div>
@@ -76,17 +76,17 @@ const CategoryList = () => {
                           <div className="post-all-action-btn-wrap">
                             <button className="preview-btn">
                               <span>
-                                <i class="bx bx-show"></i>
+                                <i className="bx bx-show"></i>
                               </span>{" "}
                               Preview
                             </button>
                             <button className="edit-btn ">
-                              <i class="bx bx-edit-alt"></i> Edit
+                              <i className="bx bx-edit-alt"></i> Edit
                             </button>
                             <button className="close-btn">
                               <i
                                 style={{ color: "red" }}
-                                class="bx bx-x-circle"
+                                className="bx bx-x-circle"
                               ></i>
                             </button>
                           </div>
@@ -104,17 +104,17 @@ const CategoryList = () => {
                           <div className="post-all-action-btn-wrap">
                             <button className="preview-btn">
                               <span>
-                                <i class="bx bx-show"></i>
+                                <i className="bx bx-show"></i>
                               </span>{" "}
                               Preview
                             </button>
                             <button className="edit-btn ">
-                              <i class="bx bx-edit-alt"></i> Edit
+                              <i className="bx bx-edit-alt"></i> Edit
                             </button>
                             <button className="close-btn">
                               <i
                                 style={{ color: "red" }}
-                                class="bx bx-x-circle"
+                                className="bx bx-x-circle"
                               ></i>
                             </button>
                           </div>
@@ -132,17 +132,17 @@ const CategoryList = () => {
                           <div className="post-all-action-btn-wrap">
                             <button className="preview-btn">
                               <span>
-                                <i class="bx bx-show"></i>
+                                <i className="bx bx-show"></i>
                               </span>{" "}
                               Preview
                             </button>
                             <button className="edit-btn ">
-                              <i class="bx bx-edit-alt"></i> Edit
+                              <i className="bx bx-edit-alt"></i> Edit
                             </button>
                             <button className="close-btn">
                               <i
                                 style={{ color: "red" }}
-                                class="bx bx-x-circle"
+                                className="bx bx-x-circle"
                               ></i>
                             </button>
                           </div>

@@ -1,0 +1,117 @@
+.show-all-post-data-main-wrap {
+  background: #fff;
+  padding: 25px;
+  table {
+    vertical-align: middle;
+  }
+  tbody {
+    tr {
+      border-bottom: 1px solid #c2d6f5;
+      padding-bottom: 15px;
+    }
+  }
+  .post-all-action-btn-wrap {
+    display: flex;
+    gap: 12px;
+    padding: 10px 0;
+    button {
+      border: none;
+      background: none;
+      border-radius: 5px;
+      padding: 5px 20px;
+      display: flex;
+      align-items: center;
+      border: 2px solid transparent;
+      gap: 2px;
+      &.preview-btn {
+        border-radius: 5px;
+        background: #e0f0ff;
+        color: #0184ff;
+      }
+      &.edit-btn {
+        color: #0184ff;
+        border: 1px solid #0184ff;
+      }
+    }
+  }
+}
+
+// ==============================================================================
+
+.create-new-post-main-area-wrap {
+  .new-post-category-select-header {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    padding: 7px 15px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    .create-new-post-header-back-btn {
+      position: absolute;
+      left: 20px;
+      top: 17px;
+      span {
+        i {
+          font-size: 22px;
+        }
+      }
+    }
+    .create-new-post-header-category-select {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      select.form-select {
+        width: 160px;
+      }
+    }
+
+    // ===============
+  }
+  .create-new-post-main-content-wrap {
+    margin-top: 30px;
+    background: #fff;
+    padding: 25px;
+    .image-upload-post-main-part {
+      padding: 35px;
+      background: #f0f3f9;
+      border-radius: 5px;
+      border: 2px dashed #c8e4ff;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+      span {
+        img {
+          display: inline-block;
+          margin-bottom: 10px;
+        }
+      }
+      input {
+        display: none;
+      }
+    }
+    .submit-button-area-wrap {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+      margin-top: 25px;
+      button {
+        padding: 8px 25px;
+        border-radius: 5px;
+        font-weight: 600;
+        &:first-child {
+          border: none;
+          background: #e0f0ff;
+          color: #0184ff;
+        }
+        &:last-child {
+          border: none;
+          color: #fff;
+          background: #0184ff;
+        }
+      }
+    }
+  }
+}

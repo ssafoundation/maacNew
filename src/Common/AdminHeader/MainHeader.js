@@ -44,6 +44,14 @@ const MainHeader = () => {
                       </span>{" "}
                       Category
                     </Link>
+                  </li>{" "}
+                  <li>
+                    <Link to="/user">
+                      <span>
+                        <AllPostsIcon />
+                      </span>{" "}
+                      User
+                    </Link>
                   </li>
                 </ul>
               </div>

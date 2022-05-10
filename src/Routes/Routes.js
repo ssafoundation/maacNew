@@ -6,6 +6,9 @@ import AddNewUser from "../pages/AllUsersBody/AddNewUser";
 import AllUsersBody from "../pages/AllUsersBody/AllUsersBody";
 import Login from "../pages/Authentication/Login/Index";
 import SignUp from "../pages/Authentication/Register/SignUp";
+import CreateNewPost from "../pages/UserPage/CreateNewPost/CreateNewPost";
+import NewPostInputData from "../pages/UserPage/CreateNewPost/NewPostInputData";
+import UserMainPage from "../pages/UserPage/UserMainPage";
 
 export const openRoute = [
   // { path: "/", component: AdminMain },
@@ -22,10 +25,8 @@ export const privateRoute = [
   { path: "/create-new-user", component: AddNewUser },
   { path: "/total-category", component: AllCategoryBody },
   { path: "/create-new-category", component: AddNewCategory },
-  { path: "/view-category-list", component: CategoryList, role: "admin" },
-  // { path: "/dashboard", component: Dashboard },
-];
-export const userRoute = [
   { path: "/view-category-list", component: CategoryList },
-  // { path: "/dashboard", component: Dashboard },
+  { path: "/user", component: UserMainPage },
+  { path: "/create-new-post", component: CreateNewPost },
+  { path: "/create-new-post-input-data", component: NewPostInputData },
 ];
