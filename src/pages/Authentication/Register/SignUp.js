@@ -3,10 +3,10 @@ import { Form } from "react-bootstrap";
 import { useDispatch, useSelector } from "react-redux";
 import { useHistory } from "react-router-dom";
 import { Alert, Button, Col, Row } from "reactstrap";
-import {
-  registerUser,
-  registerUserSuccessful,
-} from "../../../store/auth/register/actions";
+// import {
+//   registerUser,
+//   registerUserSuccessful,
+// } from "../../../store/auth/register/actions";
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -28,11 +28,11 @@ const SignUp = () => {
   function handleSubmit(event) {
     event.preventDefault();
     console.log(formData);
-    dispatch(registerUser(formData, history));
+    // dispatch(registerUser(formData, history));
   }
 
   useEffect(() => {
-    dispatch(registerUserSuccessful(""));
+    // dispatch(registerUserSuccessful(""));
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
