@@ -8,6 +8,7 @@ const UserMainPage = () => {
     <div>
       <Container>
         <div className="all-poss-inner-wrap">
+          {/* <TextEditor /> */}
           <Row>
             <Col lg={4}>
               <div className="total-posts-count">
